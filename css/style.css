@@ -574,17 +574,16 @@
         text-decoration: none;
         color: black;
         font-size: 20px;
-        margin-top: 0.3em;
-        margin-left: 5em;
+        margin-left: 1em;
     }
     
     .icons_links_contact {
-        margin-right: 20px;
+        margin-right: 0.5em;
     }
     
     .map_contact {
-        width: 500px;
-        height: 360px;
+        width: 100%;
+        height: 80%;
         border-radius: 7px;
         border: 2px solid #a1a59f;
     }
@@ -596,11 +595,10 @@
     }
     
     .btn_send_contact {
-        margin: 1em;
         background-color: #5a3fc7;
         border-radius: 5px;
         border: 1px solid #5a3fc7;
-        padding: 5px;
+        padding: 5px 50px 5px 50px;
         font-size: 21px;
         font-weight: bold;
         cursor: pointer;
@@ -610,4 +608,56 @@
     .btn_send_contact:hover {
         background-color: #3f9cc7;
         border: 1px solid #3f9cc7;
+    }
+    
+    .grid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 70%;
+    }
+    
+    .box_container_title_pag {
+        flex-wrap: wrap;
+        max-height: 15em;
+        overflow: hidden;
+        box-shadow: inset 0px -20px 20px 12px #363635;
+    }
+    
+    .grid_form_contact {
+        display: grid;
+        padding: 2em;
+        grid-template-areas: "name map" "email map" "menssage map" "button button";
+        grid-column-gap: 1em;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .name {
+        grid-area: name;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .map {
+        height: 100%;
+        width: 100%;
+        grid-area: map;
+    }
+    
+    .email {
+        grid-area: email;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .menssage {
+        grid-area: menssage;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .button {
+        grid-area: button;
+        margin-top: 2em;
+        display: flex;
+        justify-content: center;
     }
