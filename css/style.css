@@ -488,7 +488,7 @@
         align-content: center;
         display: flex;
         flex-wrap: wrap;
-        max-height: 15em;
+        max-height: 20em;
         overflow: hidden;
         box-shadow: inset 0px -20px 20px 12px #363635;
     }
@@ -657,7 +657,7 @@
     
     .btn_ham {
         width: 1.5em;
-        background: #5a3fc7;
+        background: #949495;
     }
     
     .btn_ham:hover {
@@ -701,8 +701,8 @@
     @media (max-width:576px) {
         .grid_form_contact {
             grid-template-areas: "map" "name" "email" "menssage" "button";
-            grid-column-gap: 1em;
             grid-template-columns: 1fr;
+            grid-row-gap: 0.5em;
         }
         .grid {
             grid-template-rows: 1fr auto;
@@ -740,7 +740,7 @@
             font-size: 18px;
         }
         .box_home_img {
-            width: 100%;
+            width: 99%;
             height: 23vh;
             margin-right: 0;
         }
@@ -776,4 +776,17 @@
         }
     }
     
-    @media screen and(max-width:768px) {}
+    @media (max-width:768px) {
+        .carrusel_div {
+            max-height: 15em;
+        }
+        .titulo_pag {
+            top: 2.1em;
+        }
+        .box_home_img {
+            height: 40vh;
+        }
+        .box_home_title {
+            height: 20vh;
+        }
+    }
