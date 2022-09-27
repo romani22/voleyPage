@@ -657,11 +657,14 @@
     
     .btn_ham {
         width: 1.5em;
-        background: #949495;
+        background: #c5c5bf;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .btn_ham:hover {
-        background: #6a657d;
+        background: #9b9d97;
     }
     
     .desplegable {
@@ -696,6 +699,10 @@
     
     .btn_ham:hover+.desplegable {
         visibility: visible;
+    }
+    
+    .box_hamburger {
+        display: none;
     }
     
     @media (max-width:576px) {
