@@ -705,6 +705,21 @@
         display: none;
     }
     
+    @media (max-width:768px) {
+        .carrusel_div {
+            max-height: 13em;
+        }
+        .titulo_pag {
+            top: 1.7em;
+        }
+        .box_home_img {
+            height: 40vh;
+        }
+        .box_home_title {
+            height: 20vh;
+        }
+    }
+    
     @media (max-width:576px) {
         .grid_form_contact {
             grid-template-areas: "map" "name" "email" "menssage" "button";
@@ -786,20 +801,5 @@
         }
         footer p {
             font-size: 13px;
-        }
-    }
-    
-    @media (min-width:576px) and (max-width:768px) {
-        .carrusel_div {
-            max-height: 13em;
-        }
-        .titulo_pag {
-            top: 1.7em;
-        }
-        .box_home_img {
-            height: 40vh;
-        }
-        .box_home_title {
-            height: 20vh;
         }
     }
