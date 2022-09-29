@@ -778,6 +778,12 @@
         .box_home_detaill_img img {
             max-height: 8em;
         }
+        .box_container_title_pag {
+            max-height: 8em;
+        }
+        .box_title_pag {
+            max-height: 8em;
+        }
         footer p {
             font-size: 13px;
         }
