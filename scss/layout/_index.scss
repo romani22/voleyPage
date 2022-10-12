@@ -40,7 +40,6 @@
 .box_home_img {
     @include propiedades-flex(row, center, center);
     overflow: hidden;
-    height: 55vh;
     width: 54vw;
     box-shadow: 4px 6px 12px 1px black;
     margin-right: 2em;

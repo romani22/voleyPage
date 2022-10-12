@@ -17,9 +17,6 @@
     .titulo_pag_home {
         top: 1.2em;
     }
-    .box_home_img {
-        height: 40vh;
-    }
     .titulo_sobre_img {
         font-size: 15px;
     }
@@ -28,6 +25,49 @@
     }
     .box_title_pag {
         max-height: 12em;
+    }
+    .box_home_flex {
+        flex-direction: column;
+    }
+    .box_home_title {
+        left: 1em;
+        position: inherit;
+        max-width: 90%;
+        p {
+            font-size: 18px;
+            margin: 0;
+        }
+        h1 {
+            font-size: 22px;
+        }
+    }
+    .box_home_img {
+        width: 97.5%;
+        margin-right: 0;
+        img {
+            width: 100%;
+        }
+    }
+    .box_home_detaill_img {
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+        background-color: #b0b3ac;
+        margin: 2em;
+        margin-top: 0;
+        p {
+            font-size: 18px;
+            margin: 0;
+        }
+        h2 {
+            font-size: 22px;
+            margin: 0;
+            margin-top: 0.8em;
+        }
+    }
+    .box_home_detaill_flex {
+        flex-direction: column;
     }
 }
 
@@ -58,21 +98,20 @@
         left: 1em;
         position: inherit;
         max-width: 90%;
-    }
-    .box_home_title p {
-        font-size: 12px;
-        margin: 0;
-    }
-    .box_home_title h1 {
-        font-size: 18px;
+        p {
+            font-size: 12px;
+            margin: 0;
+        }
+        h1 {
+            font-size: 18px;
+        }
     }
     .box_home_img {
         width: 97.5%;
-        height: 23vh;
         margin-right: 0;
-    }
-    .box_home_img img {
-        width: 100%;
+        img {
+            width: 100%;
+        }
     }
     .box_home_detaill_img {
         padding: 1em;
@@ -82,30 +121,23 @@
         background-color: #b0b3ac;
         margin: 2em;
         margin-top: 0;
+        p {
+            font-size: 12px;
+            margin: 0;
+        }
+        h2 {
+            font-size: 18px;
+            margin: 0;
+            margin-top: 0.8em;
+        }
     }
     .box_home_detaill_flex {
         flex-direction: column;
     }
-    .box_home_detaill_img p {
-        font-size: 12px;
-        margin: 0;
-    }
-    .box_home_detaill_img h2 {
-        font-size: 18px;
-        margin: 0;
-        margin-top: 0.8em;
-    }
-    .box_home_detaill_img img {
-        max-height: 8em;
-    }
-    .box_container_title_pag {
-        max-height: 8em;
-    }
-    .box_title_pag {
-        max-height: 8em;
-    }
-    footer p {
-        font-size: 13px;
+    footer {
+        p {
+            font-size: 13px;
+        }
     }
     .titulo_sobre_img {
         font-size: 10px;
