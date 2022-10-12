@@ -1,0 +1,41 @@
+.div_container_img_title_pag {
+    display: contents;
+}
+
+.img_title_pag {
+    width: -webkit-fill-available;
+    width: -moz-available;
+    filter: opacity(0.8);
+}
+
+.box_title_pag {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 20em;
+    overflow: hidden;
+    box-shadow: inset 0px -20px 20px 12px #363635;
+}
+
+.titulo_pag {
+    display: flex;
+    top: 3.8em;
+    position: absolute;
+    left: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 52px;
+    color: #c31515;
+    text-shadow: 6px 4px 7px black;
+}
+
+hr {
+    border-radius: 100%;
+    border: 0.1px solid #b7b7b7;
+    margin: 1em;
+}
+
+.logo {
+    height: 2.5em;
+    margin: 2px;
+}

@@ -1,0 +1,36 @@
+.secction_nosotros {
+    padding: 2em;
+}
+
+.img_club_fl_left {
+    float: left;
+    width: 50%;
+    margin-right: 1em;
+    box-shadow: 4px 4px 14px black;
+}
+
+.img_club_fl_rigth {
+    float: right;
+    width: 50%;
+    margin-left: 1em;
+    box-shadow: 4px 4px 14px black;
+}
+
+.articles_index {
+    display: inline-block;
+    h2 {
+        text-align: center;
+    }
+}
+
+section {
+    article {
+        p {
+            font-size: 18px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h2 {
+            font-family: 'Times New Roman', Times, serif;
+        }
+    }
+}

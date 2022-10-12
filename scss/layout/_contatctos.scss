@@ -43,8 +43,7 @@
     grid-area: button;
     margin-top: 2em;
     margin-bottom: 2em;
-    display: flex;
-    justify-content: center;
+    @include propiedades-flex(row, center, center);
 }
 
 .secction_box_contacto {
@@ -55,21 +54,15 @@
 
 .box_contacto {
     padding: 1em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    @include propiedades-flex(row, space-evenly, center);
 }
 
 .box_contacto_inputs {
-    display: flex;
-    flex-direction: column;
+    @include propiedades-flex(column, center, center);
 }
 
 .box_contacto_map {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    @include propiedades-flex(column, center, flex-start);
 }
 
 .text_inputs_contact {

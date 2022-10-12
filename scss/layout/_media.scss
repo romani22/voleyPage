@@ -12,19 +12,22 @@
         max-height: 13em;
     }
     .titulo_pag {
-        top: 1.7em;
+        top: 2.5em;
+    }
+    .titulo_pag_home {
+        top: 1.2em;
     }
     .box_home_img {
         height: 40vh;
-    }
-    .box_home_title {
-        height: 20vh;
     }
     .titulo_sobre_img {
         font-size: 15px;
     }
     .texto_sobre_img {
         font-size: 10px;
+    }
+    .box_title_pag {
+        max-height: 12em;
     }
 }
 
@@ -41,14 +44,17 @@
         max-height: 8em;
     }
     .titulo_pag {
-        top: 1.3em;
-        font-size: 35px;
+        top: 5em;
+        font-size: 25px;
+    }
+    .titulo_pag_home {
+        top: 1.5em;
+        font-size: 25px;
     }
     .box_home_flex {
         flex-direction: column;
     }
     .box_home_title {
-        height: 14vh;
         left: 1em;
         position: inherit;
         max-width: 90%;

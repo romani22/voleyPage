@@ -27,9 +27,7 @@
 
 .div_img_galery_1 {
     overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include propiedades-flex(row, center, center);
     img {
         width: -webkit-fill-available;
         height: -webkit-fill-available;

@@ -1,3 +1,8 @@
+.titulo_pag_home {
+    top: 2.2em;
+    @extend .titulo_pag;
+}
+
 .carrusel_div {
     display: flex;
     flex-wrap: wrap;
@@ -14,10 +19,7 @@
 
 .box_home_flex {
     padding: 2em;
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    align-items: center;
+    @include propiedades-flex(row, right, center);
 }
 
 .box_home_title {
@@ -28,7 +30,7 @@
     left: 3em;
     overflow: hidden;
     max-width: 49vw;
-    height: 34vh;
+    height: auto;
     box-shadow: 4px 6px 8px 1px #363635;
     h1 {
         margin: 0px;
@@ -36,8 +38,7 @@
 }
 
 .box_home_img {
-    display: flex;
-    flex-direction: row;
+    @include propiedades-flex(row, center, center);
     overflow: hidden;
     height: 55vh;
     width: 54vw;
@@ -49,10 +50,7 @@
 }
 
 .box_home_detaill_flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-align: center;
+    @include propiedades-flex(row, space-evenly, center);
 }
 
 .box_home_detaill_img {
