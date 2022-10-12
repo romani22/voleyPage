@@ -99,6 +99,7 @@
     
     .img_carrusel {
         width: -webkit-fill-available;
+        width: -moz-available;
         filter: opacity(0.5);
     }
     

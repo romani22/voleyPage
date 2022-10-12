@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    background-color: rgb(197, 197, 191);
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+nav {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav_active {
+    color: black;
+    &:hover {
+        color: #ff0202;
+    }
+}
