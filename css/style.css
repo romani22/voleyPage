@@ -140,23 +140,16 @@ section article h2 {
   display: grid;
   grid-template-columns: 34% 33% 33%;
   height: 55em; }
-  .grid_galery .galery_column_1 {
+  .grid_galery .grid_column, .grid_galery .galery_column_1, .grid_galery .galery_column_2, .grid_galery .galery_column_3 {
     display: grid;
     height: inherit;
     grid-template-columns: 100%;
-    grid-column-gap: 1em;
+    grid-column-gap: 1em; }
+  .grid_galery .galery_column_1 {
     grid-template-rows: 35% 25% 40%; }
   .grid_galery .galery_column_2 {
-    display: grid;
-    height: inherit;
-    grid-template-columns: 100%;
-    grid-column-gap: 1em;
     grid-template-rows: 25% 45% 30%; }
   .grid_galery .galery_column_3 {
-    display: grid;
-    height: inherit;
-    grid-template-columns: 100%;
-    grid-column-gap: 1em;
     grid-template-rows: 30% 30% 40%; }
 
 .div_img_galery_1, .div_img_galery_2, .div_img_galery_3, .div_img_galery_4, .div_img_galery_5, .div_img_galery_6, .div_img_galery_7, .div_img_galery_8, .div_img_galery_9 {
@@ -370,7 +363,6 @@ footer {
   justify-content: end;
   align-items: center;
   background-color: #c5c5bf;
-  width: 100vw;
   bottom: 0;
   height: 3.5em;
   padding-right: 2em; }

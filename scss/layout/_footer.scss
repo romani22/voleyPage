@@ -1,7 +1,6 @@
 footer {
     @include propiedades-flex(row, end, center);
     background-color: $background_color_nav_footer;
-    width: 100vw;
     bottom: 0;
     height: 3.5em;
     padding-right: 2em;

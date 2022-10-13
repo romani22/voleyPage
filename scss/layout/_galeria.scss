@@ -2,25 +2,22 @@
     display: grid;
     grid-template-columns: 34% 33% 33%;
     height: 55em;
-    .galery_column_1 {
+    .grid_column {
         display: grid;
         height: inherit;
         grid-template-columns: 100%;
         grid-column-gap: 1em;
+    }
+    .galery_column_1 {
+        @extend .grid_column;
         grid-template-rows: 35% 25% 40%;
     }
     .galery_column_2 {
-        display: grid;
-        height: inherit;
-        grid-template-columns: 100%;
-        grid-column-gap: 1em;
+        @extend .grid_column;
         grid-template-rows: 25% 45% 30%;
     }
     .galery_column_3 {
-        display: grid;
-        height: inherit;
-        grid-template-columns: 100%;
-        grid-column-gap: 1em;
+        @extend .grid_column;
         grid-template-rows: 30% 30% 40%;
     }
 }
