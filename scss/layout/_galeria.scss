@@ -1,7 +1,6 @@
 .grid_galery {
     display: grid;
     grid-template-columns: 34% 33% 33%;
-    height: 55em;
     .grid_column {
         display: grid;
         height: inherit;
@@ -24,10 +23,11 @@
 
 .div_img_galery_1 {
     overflow: hidden;
+    border: 2px solid #383838;
     @include propiedades-flex(row, center, center);
     img {
         width: -webkit-fill-available;
-        height: -webkit-fill-available;
+        min-height: -webkit-fill-available;
     }
     &:hover {
         .titulo_sobre_img {

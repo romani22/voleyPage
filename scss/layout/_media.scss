@@ -72,6 +72,19 @@
 }
 
 @media (max-width:576px) {
+    .grid_galery {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        .galery_column_3 {
+            grid-column: span 2;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 100%;
+            grid-column-gap: 0em;
+        }
+        .div_img_galery_9 {
+            display: none;
+        }
+    }
     .grid_form_contact {
         grid-template-areas: "map" "name" "email" "menssage" "button";
         grid-template-columns: 1fr;
@@ -135,8 +148,9 @@
         flex-direction: column;
     }
     footer {
+        height: 2.5em;
         p {
-            font-size: 13px;
+            font-size: 9px;
         }
     }
     .titulo_sobre_img {
@@ -144,5 +158,8 @@
     }
     .texto_sobre_img {
         font-size: 8px;
+    }
+    .box_title_pag {
+        max-height: 8em;
     }
 }
