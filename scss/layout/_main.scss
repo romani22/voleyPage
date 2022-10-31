@@ -16,7 +16,9 @@
     overflow: hidden;
     box-shadow: inset 0px -20px 20px 12px #363635;
 }
-
+main{
+    min-height: calc(100vh - 8em);
+}
 .titulo_pag {
     display: flex;
     top: 3.8em;

@@ -251,6 +251,9 @@ section article h2 {
   overflow: hidden;
   box-shadow: inset 0px -20px 20px 12px #363635; }
 
+main {
+  min-height: calc(100vh - 8em); }
+
 .titulo_pag, .titulo_pag_home {
   display: flex;
   top: 3.8em;
@@ -363,9 +366,10 @@ footer {
   justify-content: end;
   align-items: center;
   background-color: #c5c5bf;
-  bottom: 0;
   height: 3.5em;
-  padding-right: 2em; }
+  padding-right: 2em;
+  width: 100%;
+  position: absolute; }
   footer p {
     text-align: end;
     color: black;
