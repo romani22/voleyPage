@@ -15,7 +15,19 @@
     margin-left: 1em;
     box-shadow: 4px 4px 14px black;
 }
+.img_nosotros {
+    max-width: 100%;
+    box-shadow: 4px 4px 14px black;
+}
 
+.overflow_hidden{
+    overflow: hidden;
+}
+.div_img_nosotros{
+    max-height: 60vh;
+    align-items: center;
+    display: flex;
+}
 .articles_index {
     display: inline-block;
     h2 {
