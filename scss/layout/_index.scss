@@ -14,7 +14,7 @@
 .img_carrusel {
     width: -webkit-fill-available;
     width: -moz-available;
-    filter: opacity(0.5);
+    filter: opacity(0.8);
 }
 
 .box_home_flex {
@@ -23,9 +23,10 @@
 }
 
 .box_home_title {
+    color: white;
     max-height: 38vh;
     position: absolute;
-    background-color: #938e80;
+    background-color: #547071;
     padding: 1em;
     left: 3em;
     overflow: hidden;

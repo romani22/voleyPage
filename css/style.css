@@ -112,17 +112,11 @@
 .secction_nosotros {
   padding: 2em; }
 
-.img_club_fl_left {
-  float: left;
-  width: 50%;
-  margin-right: 1em;
-  box-shadow: 4px 4px 14px black; }
-
-.img_club_fl_rigth {
-  float: right;
-  width: 50%;
-  margin-left: 1em;
-  box-shadow: 4px 4px 14px black; }
+.texto_nosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 .img_nosotros {
   max-width: 100%;
@@ -205,6 +199,7 @@ section article h2 {
   border: 2px solid #970303;
   background-color: #d3b5ac;
   padding: 1em;
+  min-width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -230,7 +225,8 @@ section article h2 {
   border-bottom-right-radius: 1em;
   border: 0px solid #ae0000;
   height: 0px;
-  overflow: hidden; }
+  overflow: hidden;
+  min-width: 100%; }
 
 .icon_faq_question {
   margin: 0px;
@@ -299,7 +295,7 @@ hr {
 .img_carrusel {
   width: -webkit-fill-available;
   width: -moz-available;
-  filter: opacity(0.5); }
+  filter: opacity(0.8); }
 
 .box_home_flex {
   padding: 2em;
@@ -309,9 +305,10 @@ hr {
   align-items: center; }
 
 .box_home_title {
+  color: white;
   max-height: 38vh;
   position: absolute;
-  background-color: #938e80;
+  background-color: #547071;
   padding: 1em;
   left: 3em;
   overflow: hidden;
