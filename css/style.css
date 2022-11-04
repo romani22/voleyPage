@@ -507,7 +507,8 @@ footer {
     max-height: 8em; } }
 
 * {
-  margin: 0px; }
+  margin: 0px;
+  user-select: none; }
 
 body {
   background-color: #ced5df; }
